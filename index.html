@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <main>
+            <section class="section__container heroes">
+                <div class="all-name-heroes">
+                    <div class="heroes__body">
+                        <div id="heroes"></div>
+                    </div>
+                    <div class="btn__arrows">
+                        <button class="next-heroes__btn btn" id="next-heroes__btn">&rArr;</button>
+                        <button class="previous-heroes__btn btn" id="previous-heroes__btn">&lArr;</button>
+                    </div>
+                </div>
+                <div id="heroes__name" class="heroes__name"></div>
+                <div class="heroes__character">
+                    <table id="table-info-hero"></table>
+                    <div class="preloader hide">
+                        <div class="preloader__row">
+                            <div class="preloader__item"></div>
+                            <div class="preloader__item"></div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+    <script src="./script.js"></script>
+</body>
+
+</html>
