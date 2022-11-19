@@ -21,10 +21,12 @@ function loadedPage() {
         heroesCharacter.style.transform = 'translateX(0px)';
     }
     function hideNameHeroes() {
+        heroesName.style.display = 'none'
         allHero.style.transform = 'translateY(3000px)';
         setTimeout(hideNameHeroesBlock, 400);
     }
     function visibleNameHeroes() {
+        heroesName.style.display = 'block'
         heroesCharacter.style.transform = 'translateX(-1000px)';
         document.querySelectorAll('td').forEach(td => {
             td.remove();
